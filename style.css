@@ -1,0 +1,81 @@
+:root{
+    --dark : #392467;
+    --light : #FFD1E3;
+    --mid-clr : #A367B1;
+    --blk : black;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin: 15px 15px 0 15px;
+}
+.container{
+    height: 70vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxs{
+    background-color: var(--mid-clr);
+    color: var(--blk);
+    font-weight: bold;
+    font-size: 5vh;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.7);
+    
+}
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+.btn{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--mid-clr);
+    box-shadow: 0 0 1.5rem rgba(0,0,0,1);
+    margin: 15px;
+    cursor: pointer;
+}
+#winnerArea{
+    font-size: 15vmin;
+    font-weight: 700;
+    color: var(--light);
+    margin: 15px;
+}
+.hide{
+    display: none; 
+}
+.result-area{
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* msg-con = result-area 
+   msg = winnerArea
+   new-btn = newGame-btn
+   */
